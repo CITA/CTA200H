@@ -1,0 +1,56 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\setlength{\parindent}{0em}
+\setlength{\parskip}{0.5em}
+
+
+\title{CTA200 2020 Assignment 2}
+\author{DUE: Friday May 8th by 11:59PM}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{[4] Question 1}
+
+For each point in the complex plane $c = x + iy$, with $-2 < x < 2$ and $-2 < y < 2$, set $z_0 = 0$ and iterate the equation $z_{i + 1} = z_i^2 + c$. 
+Note what happens to the $z_i$'s: some points will remain bounded in absolute value $|z|^2 = \Re(z)^2 + \Im(z)^2$, while others will run off to infinity. 
+Make an image  in which your points $c$ that diverge are given one color and those that stay bounded are given another.
+(Once you have done this, you can try coloring the points that diverge using a colorscale that indicates the iteration number at which the given point diverged.) 
+Try zooming in on a portion of the image and trying again.  
+
+
+\section*{[4] Question 2}
+
+The SIR model is a simple mathematical model of disease spread in a population.
+The model divides a fixed population of size $N$ into three groups, which vary as a function of time, $t$:
+
+\begin{itemize}
+    \item $S(t)$ is those that are susceptible but not yet infected
+    \item $I(t)$ is the number of infected individuals
+    \item $R(t)$ is those individuals that have recovered and are now immune
+\end{itemize}
+
+The model can be described by a set of 3 first order differential equations for each of the variables as
+
+\begin{align}
+    \frac{dS}{dt} &= -\frac{\beta S I}{N},\\
+    \frac{dI}{dt} &= \frac{\beta S I}{N} - \gamma I,\\
+    \frac{dR}{dt} &= \gamma I
+\end{align}
+
+Using the ODE integrator of your choice (must be callable in Python, we recommend using Scipy as will be covered in lecture on Friday), integrate the equations with $N=1000$ from $t=0$ to $t=200$ for various values of $\gamma$ and $\beta$ (at least 3-4 values, justify your choices physically).
+
+Use the initial condition $I(0) = 1, S(0)=999, R(0) = 0$ (you can also experiment with other initial conditions if you wish).
+Plot the curves for $S, I, R$ on the same figure with a legend. make separate plots for each choice of the parameters.
+
+Bonus: Add a 4th parameter $D$ for deaths and justify the addition of a 4th differential equation as well as any RHS terms that must be changed on the initial 3 equations. Integrate the new set of equations for some choice of parameters and comment on the results compared to the SIR model.
+
+\section*{[2] Question 3}
+
+To practice using the \texttt{LaTex}, markup language, we would like you to writeup your results in a .tex file and submit both the \texttt{LaTex} code and the associated PDF. For each of the questions, save and insert your figures into a tex file and write a 1 paragraph methods section, which briefly describes what you did as well as a 1 paragraph analysis section which describes what you see in the results.
+
+\end{document}
