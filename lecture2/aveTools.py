@@ -1,6 +1,9 @@
 
 
-
+try:
+    xrange   # If we are running Python 2, xrange will be ok
+except NameError:
+    xrange =  range   # If not, (xrange does not exist in Python 3), redefine xrange
 
 
 def onedl(rows):
