@@ -26,14 +26,14 @@ This is a list of dates and topics for the course. (Preliminary -- subject to ch
 | Date | Instructor | Topic |
 | ---- | ---------- | ----- |
 | 1. Tues May 3 | Norm/Fergus | [Using the CITA Systems, Linux and Git](lecture_1_linux_git) |
-| 2. Weds May 4	| Norm/Fergus | Python Language Intro and Workflow |
-| 3. Thurs May 5 |	Fergus | Structuring Your Projects |
-| 4. Fri May 6 | Norm/Fergus | Numerical Computing |
-| 5. Weds May 11 |	Mubdi Rahman | Data IO/Data Manipulation |
-| 6. Mon May 9 | Norm/Fergus | Symbolic Computation (Joel Meyers) |
-| 7. Tues May 10 | Norm | Statistics and Data Analysis Tools (Carl-Johan Haster) |
-| 8. Thurs May 12| Fergus | Monte Carlo Methods (Carl-Johan Haster) |
-| 9. Fri May 13| Norm | Machine Learning (Dan Tamayo) |
+| 2. Weds May 4	| Norm/Fergus | [Python Language Intro and Workflow](lecture_2_python_intro) |
+| 3. Thurs May 5 |	Fergus | [Structuring Your Projects](lecture_3_managing_code) |
+| 4. Fri May 6 | Norm/Fergus | [Numerical Computing](lecture_4_numerical_python) |
+| 5. Weds May 11 |	Mubdi Rahman | [Data IO/Data Manipulation](lecture_5_data_wrangling) |
+| 6. Mon May 9 | Norm/Fergus | [Symbolic Computation (Joel Meyers)](lecture_6_symbolic_python) |
+| 7. Tues May 10 | Norm | [Statistics and Data Analysis Tools (Carl-Johan Haster)](lecture_7_statistics) |
+| 8. Thurs May 12| Fergus | [Monte Carlo Methods (Carl-Johan Haster)](lecture_8_monte_carlo) |
+| 9. Fri May 13| Norm | [Machine Learning (Dan Tamayo)](lecture_9_machine_learning) |
 
 
 # Marking Scheme
@@ -52,7 +52,7 @@ In the first week students will work on homework problems related to the first w
 
 The problem set will be divided into three smaller assignments to be handed in every couple of days. 
 
-* [Assignment 1 Due by 1PM May 4th](https://github.com/CITA/CTA200H/blob/master/assignments/assignment_1.md)
+* [Assignment 1 Due by 1PM May 4th](assignments/assignment_1.md)
 * Assignment 2 Due by 1PM May 6th (to be posted)
 * Assignment 3 Due by 1PM May 9th (to be posted)
 
