@@ -52,6 +52,8 @@ In the first week students will work on homework problems related to the first w
 
 The problem set will be divided into smaller assignments to be handed in every couple of days. 
 
+* [Assignment 1 Due by 1PM May 4th](https://github.com/CITA/CTA200H/blob/master/assignments/assignment_1.md)
+
 ## Project
 In the second week students will work on a project supplied either by their supervisor or the instructor. The project is due by midnight, Friday May 13th.
 
