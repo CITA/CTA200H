@@ -50,9 +50,11 @@ The mark will be determined on the basis of three items:
 
 In the first week students will work on homework problems related to the first week's lectures.  For the second week they will work on a week-long project that will be closely related to the research they do for the rest of the summer.  They will hand in their results for this project at the end of the course.
 
-The problem set will be divided into smaller assignments to be handed in every couple of days. 
+The problem set will be divided into three smaller assignments to be handed in every couple of days. 
 
 * [Assignment 1 Due by 1PM May 4th](https://github.com/CITA/CTA200H/blob/master/assignments/assignment_1.md)
+* Assignment 2 Due by 1PM May 6th (to be posted)
+* Assignment 3 Due by 1PM May 9th (to be posted)
 
 ## Project
 In the second week students will work on a project supplied either by their supervisor or the instructor. The project is due by midnight, Friday May 13th.
