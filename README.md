@@ -40,8 +40,9 @@ This is a list of dates and topics for the course. (Preliminary -- subject to ch
 
 The mark will be determined on the basis of three items:
 
-|1. Class participation | 10%   |
+| Item                  | Weight|
 | --------------------- | ----- |
+|1. Class participation | 10%   |
 |2. Homework:           |40%    |
 |3. Project:            |50%    |
 
