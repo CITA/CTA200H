@@ -1,0 +1,132 @@
+\                                                                               
+\fixlen = T
+\RowsRetrieved =                15
+\ORIGIN  = 'IPAC Infrared Science Archive (IRSA), Caltech/JPL'
+\SIMULATED_TABLE  = 'n'
+\DATETIME= '2021-05-04 09:44:03'
+\DataTag = 'ADS/IRSA.Gator#2021/0504/094403_5574'
+\DATABASE= 'WISE All-Sky Source Catalog (allsky_4band_p3as_psd)'
+\EQUINOX = 'J2000'
+\SKYAREA = 'within 2 arcmin of  ra=83.82208 dec=-5.39111 Eq J2000 '
+\StatusFile = '/workspace/TMP_SVPhUD_4491/Gator/irsa/5574/log.5574.html'
+\SQL     = 'WHERE (no constraints) 
+\SQL     = 'SELECT (49 column names follow in next row.)'
+\ 
+\ designation 
+\ ___ unique WISE source designation
+\ ra (deg) 
+\ ___ right ascension (J2000)
+\ dec (deg) 
+\ ___ declination (J2000)
+\ sigra (arcsec) 
+\ ___ uncertainty in RA
+\ sigdec (arcsec) 
+\ ___ uncertainty in DEC
+\ sigradec (arcsec) 
+\ ___ uncertainty cross-term
+\ w1mpro (mag) 
+\ ___ instrumental profile-fit photometry magnitude, band 1
+\ w1sigmpro (mag) 
+\ ___ instrumental profile-fit photometry flux uncertainty in mag units, band 1
+\ w1snr 
+\ ___ instrumental profile-fit photometry S/N ratio, band 1
+\ w1rchi2 
+\ ___ instrumental profile-fit photometry reduced chi^2, band 1
+\ w2mpro (mag) 
+\ ___ instrumental profile-fit photometry magnitude, band 2
+\ w2sigmpro (mag) 
+\ ___ instrumental profile-fit photometry flux uncertainty in mag units, band 2
+\ w2snr 
+\ ___ instrumental profile-fit photometry S/N ratio, band 2
+\ w2rchi2 
+\ ___ instrumental profile-fit photometry reduced chi^2, band 2
+\ w3mpro (mag) 
+\ ___ instrumental profile-fit photometry magnitude, band 3
+\ w3sigmpro (mag) 
+\ ___ instrumental profile-fit photometry flux uncertainty in mag units, band 3
+\ w3snr 
+\ ___ instrumental profile-fit photometry S/N ratio, band 3
+\ w3rchi2 
+\ ___ instrumental profile-fit photometry reduced chi^2, band 3
+\ w4mpro (mag) 
+\ ___ instrumental profile-fit photometry magnitude, band 4
+\ w4sigmpro (mag) 
+\ ___ instrumental profile-fit photometry flux uncertainty in mag units, band 4
+\ w4snr 
+\ ___ instrumental profile-fit photometry S/N ratio, band 4
+\ w4rchi2 
+\ ___ instrumental profile-fit photometry reduced chi^2, band 4
+\ nb 
+\ ___ number of blend components used in each fit
+\ na 
+\ ___ active deblend flag (=1 if actively deblended)
+\ w1sat 
+\ ___ fraction of pixels affected by saturation, band 1
+\ w2sat 
+\ ___ fraction of pixels affected by saturation, band 2
+\ w3sat 
+\ ___ fraction of pixels affected by saturation, band 3
+\ w4sat 
+\ ___ fraction of pixels affected by saturation, band 4
+\ cc_flags 
+\ ___ prioritized artifacts affecting the source in each band
+\ ext_flg 
+\ ___ probability that source morphology is not consistent with single PSF
+\ var_flg 
+\ ___ probability that flux varied in any bnd greater than expected from uncertainties
+\ moon_lev 
+\ ___ level of moon contamination in coadd (ceiling(#frmmoon/#frames*10)), 1 per band
+\ w1nm 
+\ ___ number of profile-fit flux measurements for source with SNR >= 3, band 1
+\ w1m 
+\ ___ number of individual exposures on which profile-fit measurement possible, band 1
+\ w2nm 
+\ ___ number of profile-fit flux measurements for source with SNR >= 3, band 2
+\ w2m 
+\ ___ number of individual exposures on which profile-fit measurement possible, band 2
+\ w3nm 
+\ ___ number of profile-fit flux measurements for source with SNR >= 3, band 3
+\ w3m 
+\ ___ number of individual exposures on which profile-fit measurement possible, band 3
+\ w4nm 
+\ ___ number of profile-fit flux measurements for source with SNR >= 3, band 4
+\ w4m 
+\ ___ number of individual exposures on which profile-fit measurement possible, band 4
+\ tmass_key 
+\ ___ closest associated 2MASS All-Sky Release PSC key
+\ j_m_2mass (mag) 
+\ ___ J magnitude entry of the associated 2MASS All-Sky PSC source
+\ j_msig_2mass (mag) 
+\ ___ J photometric uncertainty of the associated 2MASS All-Sky PSC source
+\ h_m_2mass (mag) 
+\ ___ H magnitude entry of the associated 2MASS All-Sky PSC source
+\ h_msig_2mass (mag) 
+\ ___ H photometric uncertainty of the associated 2MASS All-Sky PSC source
+\ k_m_2mass (mag) 
+\ ___ Ks magnitude entry of the associated 2MASS All-Sky PSC source
+\ k_msig_2mass (mag) 
+\ ___ Ks photometric uncertainty of the associated 2MASS All-Sky PSC source
+\ dist (arcsec) 
+\ ___ Distance between the target position and each source in arcsec.
+\ angle (deg) 
+\ ___ Position Angle in degree.
+\ 
+|          designation|          ra|         dec|    sigra|   sigdec|  sigradec|  w1mpro| w1sigmpro|    w1snr|   w1rchi2|  w2mpro| w2sigmpro|    w2snr|   w2rchi2|  w3mpro| w3sigmpro|    w3snr|   w3rchi2|  w4mpro| w4sigmpro|    w4snr|   w4rchi2|   nb|   na|  w1sat|  w2sat|  w3sat|  w4sat| cc_flags| ext_flg| var_flg| moon_lev|   w1nm|    w1m|   w2nm|    w2m|   w3nm|    w3m|   w4nm|    w4m|  tmass_key| j_m_2mass| j_msig_2mass| h_m_2mass| h_msig_2mass| k_m_2mass| k_msig_2mass|           dist|       angle|
+|                 char|      double|      double|   double|   double|    double|  double|    double|   double|    double|  double|    double|   double|    double|  double|    double|   double|    double|  double|    double|   double|    double|  int|  int| double| double| double| double|     char|     int|    char|     char|    int|    int|    int|    int|    int|    int|    int|    int|        int|    double|       double|    double|       double|    double|       double|         double|      double|
+|                     |         deg|         deg|   arcsec|   arcsec|    arcsec|     mag|       mag|         |          |     mag|       mag|         |          |     mag|       mag|         |          |     mag|       mag|         |          |     |     |       |       |       |       |         |        |        |         |       |       |       |       |       |       |       |       |           |       mag|          mag|       mag|          mag|       mag|          mag|         arcsec|         deg|
+|                 null|        null|        null|     null|     null|      null|    null|      null|     null|      null|    null|      null|     null|      null|    null|      null|     null|      null|    null|      null|     null|      null| null| null|   null|   null|   null|   null|     null|    null|    null|     null|   null|   null|   null|   null|   null|   null|   null|   null|       null|      null|         null|      null|         null|      null|         null|           null|        null|
+   J053516.09-052256.4   83.8170429   -5.3823382    0.1377    0.1267    -0.0916    0.916      0.007     158.6  4.078e+01   -0.272      0.006     192.4  1.453e+02     null       null      null       null     null       null      null       null     1     0   0.363   0.386    null    null      hh00        3     nnnn      0000      14      14      14      14    null    null    null    null        null       null          null       null          null       null          null       36.374759   330.243077 
+   J053515.80-052249.7   83.8158442   -5.3804979    0.0166    0.0360     0.0173    1.089      0.004     256.9  9.462e+01    6.233       null    -439.6  2.488e+02     null       null      null       null     null       null      null       null     1     0   0.361   0.385    null    null      dD00        3     nnnn      0000      14      14      11      11    null    null    null    null        null       null          null       null          null       null          null       44.260792   329.671301 
+   J053523.93-052407.4   83.8497446   -5.4020611    0.0550    0.0558    -0.0065    7.729      0.026      41.4  1.673e+02    6.757      0.033      32.6  5.530e+01   -0.143       null      -8.1  6.223e+00     null       null      null       null     1     0   0.000   0.000   0.998    null      dd00        3     99nn      0000      13      13      13      13       0       0    null    null        null       null          null       null          null       null          null      106.701563   111.684804 
+   J053519.16-052512.4   83.8298405   -5.4201317    0.0485    0.0434     0.0167    6.494      0.043      25.0  1.066e+03    5.727      0.017      63.3  4.439e+02     null       null      null       null     null       null      null       null     1     0   0.848   0.019    null    null      dd00        3     99nn      0000       8       8      13      13    null    null    null    null        null       null          null       null          null       null          null      108.116971   165.093157 
+   J053515.55-052514.4   83.8148233   -5.4206672    0.0630    0.0766    -0.0039    7.396      0.039      27.6  1.947e+01    6.836      0.033      33.2  2.848e+01     null       null      null       null     null       null      null       null     1     0   0.103   0.000    null    null      hh00        3     99nn      0000      14      14      14      14    null    null    null    null  1194807809     10.020         0.033      9.047         0.038      8.732         0.033      109.538231   193.734703 
+   J053520.29-052508.2   83.8345716   -5.4189516    0.0848    0.0824     0.0366    5.901      0.163       6.6  4.406e+01    5.314      0.034      31.6  6.208e+01     null       null      null       null     null       null      null       null     1     0   0.918   0.424    null    null      hh0D        3     n9nn      0000       2      12      12      13    null    null    null    null        null       null          null       null          null       null          null      109.774104   155.931618 
+   J053518.52-052517.5   83.8271748   -5.4215396    0.0611    0.0547     0.0099    5.622      0.073      14.9  5.602e+01    5.654      0.022      48.4  9.139e+01     null       null      null       null     null       null      null       null     1     0   0.781   0.003    null    null      hh00        3     99nn      0000       8      13      13      13    null    null    null    null  1194807840     12.716          null     13.740         0.074     13.523         0.111      111.057959   170.536935 
+   J053522.23-052451.9   83.8426547   -5.4144261    0.1779    0.1842    -0.0904    7.046      0.097      11.2  1.121e+02     null       null      null       null     null       null      null       null     null       null      null       null     1     0   0.947    null    null    null      h000        3     nnnn      0000       5       9    null    null    null    null    null    null        null       null          null       null          null       null          null      111.728109   138.701522 
+   J053521.46-052501.5   83.8394320   -5.4170850    0.0917    0.1180    -0.0330    7.421      0.066      16.6  4.202e+01    6.232      0.040      27.0  7.247e+01     null       null      null       null     null       null      null       null     1     0   0.708   0.469    null    null      dd00        3     99nn      0000      10      13      13      13    null    null    null    null        null       null          null       null          null       null          null      112.301729   146.374617 
+   J053523.07-052439.8   83.8461625   -5.4110794    0.0633    0.0633     0.0274    6.820      0.047      23.3  1.143e+02    5.917      0.027      40.6  1.011e+02    1.266       null     -22.9  4.097e+01     null       null      null       null     1     0   0.682   0.361   0.999    null      dd00        3     94nn      0000      13      13      13      13       0       0    null    null        null       null          null       null          null       null          null      112.329648   129.792248 
+   J053523.79-052426.1   83.8491315   -5.4072683    0.0482    0.0445     0.0144    6.449      0.031      35.2  1.431e+02    5.843      0.023      47.3  9.669e+01    1.315       null     -23.5  5.343e+01     null       null      null       null     1     0   0.405   0.037   0.998    null      dd00        3     92nn      0000      13      13      13      13       0       0    null    null        null       null          null       null          null       null          null      113.065079   120.964108 
+   J053516.82-052521.3   83.8200991   -5.4226055    0.0565    0.0579    -0.0098    7.618      0.030      36.1  7.409e+01    6.680      0.029      37.8  5.283e+01     null       null      null       null     null       null      null       null     1     0   0.000   0.000    null    null      hh00        3     99nn      0000      14      14      14      14    null    null    null    null  1194807839     12.070          null     14.202         0.103     13.228         0.091      113.605840   183.582797 
+   J053514.81-052517.9   83.8117253   -5.4216475    0.0703    0.0766    -0.0080    8.129      0.028      39.3  1.180e+02    7.655      0.079      13.7  5.550e+00     null       null      null       null     null       null      null       null     1     0   0.000   0.000    null    null      hh00        3     99nn      0000      13      14       8      14    null    null    null    null        null       null          null       null          null       null          null      116.029850   198.652808 
+   J053514.22-052516.5   83.8092905   -5.4212504    0.0870    0.0994     0.0049    8.719      0.044      24.6  2.107e+01    7.424      0.039      28.1  2.603e+01   -4.284       null       0.1  9.604e-03     null       null      null       null     1     0   0.000   0.000   1.000    null      dd00        3     99nn      0000      13      13      12      13       0       4    null    null  1194807815     12.551         0.090     11.894         0.070     11.321         0.064      117.789996   202.900699 
+   J053524.97-052300.5   83.8540649   -5.3834741    0.1801    0.2262     0.1171    8.473      0.100      10.9  5.953e+01    8.067      0.164       6.6  1.333e+00     null       null      null       null     null       null      null       null     1     0   0.000   0.000    null    null      dh0D        3     9nnn      0000       4      13       0      13    null    null    null    null  1194806682     10.651         0.022      9.431         0.030      8.757         0.018      117.886976    76.516943 
