@@ -25,7 +25,7 @@ This is a list of dates and topics for the course. (Preliminary -- subject to ch
 
 | Date | Instructor | Topic |
 | ---- | ---------- | ----- |
-| 1. Tues May 3 | Norm/Fergus | Using the CITA Systems, Linux and Git |
+| 1. Tues May 3 | Norm/Fergus | [Using the CITA Systems, Linux and Git](lecture_1_linux_git) |
 | 2. Weds May 4	| Norm/Fergus | Python Language Intro and Workflow |
 | 3. Thurs May 5 |	Fergus | Structuring Your Projects |
 | 4. Fri May 6 | Norm/Fergus | Numerical Computing |
@@ -63,4 +63,4 @@ In the second week students will work on a project supplied either by their supe
 
 To download all course material to your computer:
 
-`git clone https://github.com/CITA/CTA200H.git`
+`git clone git@github.com:CITA/CTA200H.git`
