@@ -46,7 +46,7 @@ The mark will be determined on the basis of three items:
 |2. Homework:           | 40%   |
 |3. Project:            | 50%   |
 
-## Homeworks
+## Homework
 
 In the first week students will work on homework problems related to the first week's lectures.  For the second week they will work on a week-long project that will be closely related to the research they do for the rest of the summer.  They will hand in their results for this project at the end of the course.
 
