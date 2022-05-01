@@ -1,10 +1,14 @@
 # CTA200 2021 Computing Information Sheet
 
-Welcome to the CITA Computing Course 2021! A course account is assigned to you and an instruction has been emailed to you. Below is some information to get you started with the CITA computing resources.
+Welcome to the CITA Computing Course (CTA200) for 2022! If you have signed up for the course or let us know that you want to audit, you should have received an email with information about a computer account and related instructions (including a Secret; if not, please let Norm or Fergus know. This Information sheet provides some information to get you started with the CITA computing resources.
 
 For more information, please visit the CITA Wiki at [http://wiki.cita.utoronto.ca](https://wiki.cita.utoronto.ca/index.php/Welcome_to_the_CITA_Wiki).
 
-You will need your CITA login credentials to access the wiki.
+You will need your CITA or CTA200 login credentials to access the wiki.
+
+For the ses of this course, most laptops will provide sufficient compute power, but for your research projects over the summer you will probably require more. This may be in the form of a server (like lobster on the CITA network), a cluster (like CITA's Sunnyvale) or a national-scale machine like SciNet's Niagara.
+
+To access any of these you will need a secure login facility; all the machines just named, and most large systems, use ssh for logins, often with some form of Two-factor Authentication. Here we describe the CITA setup, but other systems are similar.
 
 ## Remote Access with Two-factor Authentication
 Remote ssh logins must go through the CITA gateway machine `gw.cita.utoronto.ca`. The gateway
@@ -14,13 +18,13 @@ browser or on your smartphone to generate these codes.
 **Browser Instructions**
 1. Open a browser at this URL: `https://gauth.cita.utoronto.ca`
 2. Click on the pencil icon in the upper right and then the `+Add` button. Enter CITA Account name and type in or cut and paste your Secret key. Your Secret key can be found in the Account info sheet that has been emailed to you.
-3. You can delete the EXAMPLE key if you wish.
+3. You can delete the EXAMPLE key if you wish---we recommend that you do so.
 
 **Smartphone Instructions**
 1. Install the Google Authenticator app on your smartphone (search Google Play or the App Store).
-2. Add you Secret key by taking a picture of the QR code or type it in.
+2. Add your Secret key by taking a picture of the QR code or type it in.
 
-Once you have logged into the gateway, you can then ssh login from there to other CITA servers and the cluster to conduct your research.
+Once you have logged into the gateway, you can then ssh login from there to other CITA servers and the cluster to conduct your research. Servers include lobster, homard, kingcrab, and mussel, in addition to cosmo1 to cosmo4.
 
 
 ## Password Change
@@ -60,10 +64,10 @@ cosmo4.cita.utoronto.ca:6 (Oct, Nov, Dec)
 
 ## Course Material
 
-The course homepage is [https://github.com/CITA/CTA200H/wiki]().  
-Material for the first lecture, Scientific computing workflow in Linux, can be accessed from the sidebar. Material for the rest of the course is available online at [https://github.com/CITA/CTA200H](). To follow the exercises you should copy the material to your computer with
+The course homepage is [https://github.com/CITA/CTA200H].  
+Material for the first lecture, Scientific computing workflow in Linux, can be accessed from the folder [lecture_1_linux_git](https://github.com/CITA/CTA200H/tree/master/lecture_1_linux_git). Material for the rest of the course is available online at [https://github.com/CITA/CTA200H](). To follow the exercises you should copy the material to your computer with
 
-`git clone https://github.com/CITA/CTA200H.wiki.git`
+`git clone https://github.com/CITA/CTA200H.git`
 
 ## Software Environment
 
