@@ -2,9 +2,9 @@
 
 Git is a version control system for tracking changes to files. It is widely used in software development. Each change to each file is stored, so that a history of all iterations of the code are kept.
 
-Keeping a history of your code development has multiple advantages. You can track when new features are added or bugs are fixed, and if pieces of code are removed or substantially modified, you still have access to the previous versions. If a new bug is introduced, this also makes it possible to revisit earlier versions of the code to find out which change introduced it.
+Keeping a history of your code development has multiple advantages. You can track when new features are added or bugs are fixed, and if pieces of code are removed or substantially modified, you still have access to the previous versions. If a new bug is introduced, this also makes it possible to revisit earlier versions of the code to find out which change introduced it, which in turn makes it easier to find and fix the bug.
 
-Typical usage of git is to have a main repository for the code, with each developer grabbing a copy for themselves to use locally. They can edit the code and make some changes to their local copy, then commit and push those changes back to the main repository. [Github](https://github.com/) is one option to store repositories online so that they can be accessed from anywhere. This design model is advantageous for collaborative efforts to develop software since everyone has their own copy of the code, but can push their changes to the central repository so that everyone else can get (pull) them.
+Typical usage of git is to have a main repository for the code, with each developer grabbing (or `clone') a copy for themselves to use locally. They can edit the code and make some changes to their local copy, then commit and push those changes back to the main repository. [Github](https://github.com/) is one option to store repositories online so that they can be accessed from anywhere. This design model is advantageous for collaborative efforts to develop software since everyone has their own copy of the code, but can push their changes to the central repository so that everyone else can get (pull) them.
 
 One aspect of git is that not only is there a central repository, but also every local copy is its own repository. Thus you can commit multiple changes to your local copy before pushing them to the central repository. For example, if you're developing a complex new feature for your code, you could work throughout the week implementing it and commit incremental changes to your own copy, then once its finished and polished, push the finalised version to the central repository for everyone else to use.
 
@@ -12,7 +12,7 @@ One aspect of git is that not only is there a central repository, but also every
 
 The majority of the time you only use the same few git commands. Use `git clone` to create a local copy of an existing repository. You've already used this in the first lecture to create a local copy of the course material, that is,
 
-`git clone https://github.com/ttricco/cta200h.git`
+`git clone https://github.com/CITA/CTA200H.git`
 
 With this you then have all the files that are part of this project and also the history of each file. 
 
