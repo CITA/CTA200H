@@ -35,6 +35,15 @@ Here is a cheatsheet with some of the commands you may find useful throughout th
 
     which   find out the location of a given command program
 
+    grep    Search contents of a file
+
+    find    Search for a file
+
+    >       Direct output of a command to a file
+
+    mkdir   Make a new directory
+
+
 ## Directory Symbols
 
     /       root directory of file-system
