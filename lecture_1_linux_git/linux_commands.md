@@ -43,6 +43,8 @@ Here is a cheatsheet with some of the commands you may find useful throughout th
 
     mkdir   Make a new directory
 
+    gcc     Compile a C program can use gcc <filename> -o <outname> in order to specify the name
+
 
 ## Directory Symbols
 
