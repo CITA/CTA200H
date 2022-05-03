@@ -52,7 +52,7 @@ In the first week students will work on homework problems related to the first w
 
 The problem set will be divided into three smaller assignments to be handed in every couple of days. 
 
-* [Assignment 1 Due by 1PM May 4th](assignments/assignment_1.md)
+* [Assignment 1 Due by 1PM May 5th](assignments/assignment_1.md)
 * Assignment 2 Due by 1PM May 6th (to be posted)
 * Assignment 3 Due by 1PM May 9th (to be posted)
 

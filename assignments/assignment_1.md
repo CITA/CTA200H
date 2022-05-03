@@ -1,5 +1,5 @@
 # Assignment 1
-## Due by 1PM (before class) on Wednesday May 4th
+## Due by 1PM (before class) on Thursday May 5th
 
 This assignment will have you practice using the linux command line as well as have you setup a Github repository.
 
@@ -12,7 +12,7 @@ This assignment will have you practice using the linux command line as well as h
 
 3. Rename your version of the files `Hello_world_your-last-name.c/py`.
 
-4. Compile the C code using `gcc` (you will need to load a module for this). Name the executable `Hellow_world.x`.
+4. Compile the C code using `gcc` (you will need to load a module for this). Name the executable `Hello_world.x`.
 
 5. Run the C program and the Python program to see what they do.
 
