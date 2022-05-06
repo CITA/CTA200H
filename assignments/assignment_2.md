@@ -15,7 +15,7 @@ Newton iteration finds the root ($x_n$ such that $f(x_n) = 0$).
 
 To do this, implement the recursive expression $x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}$ using a loop.
 
-The iteration should stop either when `max_iter` is exceeded or when $f(x_n)$ < `epsilon`.
+The iteration should stop either when `max_iter` is exceeded or when $|f(x_n)|$ < `epsilon`.
 
 If the method succeeds, (ie $|f(x_n$)| < `epsilon`), then your function should print `"Found root in <N> iterations"` and should return the value of $x_n$. Otherwise, it should print `"Iteration failed"` and return `None`.
 
