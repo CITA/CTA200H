@@ -17,7 +17,7 @@ To do this, implement the recursive expression $x_{n+1} = x_n - \frac{f(x_n)}{f'
 
 The iteration should stop either when `max_iter` is exceeded or when $f(x_n)$ < `epsilon`.
 
-If the method succeeds, (ie $f(x_n$) < `epsilon`), then your function should print `"Found root in <N> iterations"` and should return the value of $x_n$. Otherwise, it should print `"Iteration failed"` and return `None`.
+If the method succeeds, (ie $|f(x_n$)| < `epsilon`), then your function should print `"Found root in <N> iterations"` and should return the value of $x_n$. Otherwise, it should print `"Iteration failed"` and return `None`.
 
 Make sure that your function is documented with [Numpy style documentation](https://numpydoc.readthedocs.io/en/latest/format.html).
 
