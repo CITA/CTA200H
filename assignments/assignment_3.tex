@@ -1,0 +1,41 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\setlength{\parindent}{0em}
+\setlength{\parskip}{0.5em}
+
+
+\title{CTA200 2022 Assignment 3}
+\author{DUE: Tuesday May 10th by 1:00 PM}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+Submit all of your code in a .ipynb file. Please clear all output before commiting your file to Github. You will also submit a .tex file, as described in Question 3. You can see the .tex file for this assignment as a sample of how to get started. I also suggest that those of you new to Latex try out the Overleaf cloud based Latex editor.
+
+\section*{Question 1}
+
+For each point in the complex plane $c = x + iy$, with $-2 < x < 2$ and $-2 < y < 2$, set $z_0 = 0$ and iterate the equation $z_{i + 1} = z_i^2 + c$. 
+Note what happens to the $z_i$'s: some points will remain bounded in absolute value $|z|^2 = \Re(z)^2 + \Im(z)^2$, while others will run off to infinity. 
+Make an image  in which your points $c$ that diverge are given one color and those that stay bounded are given another.
+Make a second image where the points are coloured by a colourscale that indicates the iteration number at which the given point diverged.
+
+For this question, put the code that does the iteration in a function and place this function in a separate .py file which you import in your .ipynb.
+Perform the plots in the notebook.
+
+\section*{Question 2}
+
+To be posted soon.
+
+\section*{Question 3}
+
+Writeup your results in a latex file which includes at least one plot for each of the questions as well as a description of the methods and the result. Submit the .tex file and a pdf generated from it.
+
+\section*{How to Submit}
+
+Submit your assignment by creating a folder called assignment\_2 in your repository from Assignment \#1 and put the notebook, the .py files, the \texttt{LaTex} file and the PDF output from \texttt{LaTex} as well as any other files which are necessary for me to run your code. Commit the files and push to github. No need to email me your repo again since I have the URL from assignment 1.
+
+\end{document}
