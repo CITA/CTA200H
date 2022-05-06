@@ -54,7 +54,7 @@ The problem set will be divided into three smaller assignments to be handed in e
 
 * [Assignment 1 Due by 1PM May 5th](assignments/assignment_1.md)
 * [Assignment 2 Due by 11:59PM May 7th](assignments/assignment_2.pdf)
-* Assignment 3 Due by 1PM May 9th (to be posted)
+* [Assignment 3 Due by 1PM May 10th](assignments/assignment_3.pdf)
 
 ## Project
 In the second week students will work on a project supplied either by their supervisor or the instructor. The project is due by midnight, Friday May 13th.
