@@ -2,6 +2,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[margin=1in]{geometry}
 \usepackage{amsmath}
+\usepackage{hyperref}
 \setlength{\parindent}{0em}
 \setlength{\parskip}{0.5em}
 
@@ -14,7 +15,7 @@
 
 \maketitle
 
-Submit all of your code in a .ipynb file. Please clear all output before commiting your file to Github. You will also submit a .tex file, as described in Question 3. You can see the .tex file for this assignment as a sample of how to get started. I also suggest that those of you new to Latex try out the Overleaf cloud based Latex editor.
+Submit all of your code in a .ipynb file. Please clear all output before commiting your file to Github. You will also submit a .tex file, as described in Question 3. You can see the .tex file for this assignment as a sample of how to get started. There is also another latex sample including figures in the projects directory of the course page. I also suggest that those of you new to Latex try out the Overleaf cloud based Latex editor.
 
 \section*{Question 1}
 
@@ -28,14 +29,39 @@ Perform the plots in the notebook.
 
 \section*{Question 2}
 
-To be posted soon.
+\subsection*{Introduction}
+One of the earliest demonstrations that deterministic physical systems could exhibit unpredictable behavior was given by Edward Lornez, a meteorologist. The original paper is \url{https://journals.ametsoc.org/view/journals/atsc/20/2/1520-0469_1963_020_0130_dnf_2_0_co_2.xml}, which is worth downloading and looking over.
+
+Lorenz was interested in modeling the behavior of Earth's atmosphere, i.e., a thin atmosphere (thin relative to the radius of Earth) heated from below (the air is heated by infrared radiation from the ground, or by condensing water vapor in thunder clouds, rather than by sunlight). Lorenz applies a Fourier transform to the basic equations, and truncates the number of Fourier modes, keeping only three, with amplitudes denoted by $W\equiv(X, Y, Z)$.
+
+The equations (Lorenz' equations 25, 26, and 27) are
+
+\begin{eqnarray}
+\dot X &=& -\sigma(X-Y)\\
+\dot Y &=& rX -Y - XZ\\
+\dot Z &=& -bZ + XY
+\end{eqnarray}
+
+The three dimensionless parameters are $\sigma$, the Prandtl number (the ratio of the kinematic viscosity to the thermal diffusivity), the Rayleigh number $r$ (which depends on the vertical temperature difference between the top and bottom of the atmosphere), and b, which is a dimensionless length scale.
+
+Note that there are non-linear terms in the second and third equations;
+these terms result in very complex dynamics.
+
+Your task is to 
+\begin{enumerate}
+    \item code up the equations, using a function definition, with a proper docstrings (inside triple quotes)
+    \item use an ode solver of your choice, i.e., solve\_ivp, or ode, to integrate the equations for t=60 (in dimensionless time units). Use Lorenz' initial conditions $W_0=[0., 1., 0.]$ and his parameter values [$\sigma, r, b$] = [10., 28, 8./3.].
+    \item Reproduce Lorenz' Figure 1. Label both axes! Note that Lorenz uses $N=t/\Delta t$ to label his plots (here $\Delta t=0.01$).
+    \item Reproduce Lorenz' Figure 2. You will likely have to ask for output at very closely spaced time intervals, e.g., if you use solve\_ivp, you will need something like t = np.linspace(14, 19, 1000) followed by W = sol.sol(t). Again, label both axes.
+    \item Now find the solution using the same values of $(\sigma, r, b)$, but this time with initial conditions very slightly different than $W_0$, say $W'_0 = W_0+[0., 1.e-8, 0] = [0., 1.00000001, 0.]$; note that adding the two lists (as indicated here) will not work, so you should google to find out how to add two lists element by element. Calculate the distance between $W'$ and $W$ as a function of time, and plot the result on a semilog plot (linear time, log distance). A straight line on such a plot, which is what Lorenz found, indicates exponential growth. Thus a small error in the initial condition will grow rapidly, meaning that predictions of future behavior will not be accurate.
+\end{enumerate}
 
 \section*{Question 3}
 
-Writeup your results in a latex file which includes at least one plot for each of the questions as well as a description of the methods and the result. Submit the .tex file and a pdf generated from it.
+Writeup your results in a latex file which includes at least one plot for each of the questions as well as a description of the methods and the result. Submit the .tex file and a pdf generated from it. Yopur writeup should be 1-3 pages long, excluding figures. Save your figures as a .pdf file.
 
 \section*{How to Submit}
 
-Submit your assignment by creating a folder called assignment\_2 in your repository from Assignment \#1 and put the notebook, the .py files, the \texttt{LaTex} file and the PDF output from \texttt{LaTex} as well as any other files which are necessary for me to run your code. Commit the files and push to github. No need to email me your repo again since I have the URL from assignment 1.
+Submit your assignment by creating a folder called assignment\_3 in your repository from Assignment \#1 and put the notebook, the .py files, the \texttt{LaTex} file and the PDF output from \texttt{LaTex} as well as any other files which are necessary for me to run your code. Commit the files and push to github. No need to email me your repo again since I have the URL from assignment 1.
 
 \end{document}
