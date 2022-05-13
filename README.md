@@ -57,7 +57,7 @@ The problem set will be divided into three smaller assignments to be handed in e
 * [Assignment 3 Due by 1PM May 10th](assignments/assignment_3.pdf)
 
 ## Project
-In the second week students will work on a project supplied either by their supervisor or the instructor. The project is due by midnight, Friday May 13th.
+In the second week students will work on a project supplied either by their supervisor or the instructor. The project is due by 5PM on Monday May 16th 2022.
 
 ## Using the System
 
