@@ -1,5 +1,5 @@
 # Assignment 2
-## Due by 11:59PM Saturday May 7
+## Due by 11:59PM Saturday May 13
 
 This assignment will have you practice some basic Python syntax such as functions, for loops and flow control. Write all of your code in a jupyter notebook and save it as `assignment_2/assignment.ipynb` in your git repo. Make sure you push to Github before the due date.
 
