@@ -1,5 +1,5 @@
 # Assignment 1
-## Due by 1PM (before class) on Thursday May 11th
+## Due by 1PM (before class) on Thursday May 4th
 
 This assignment will have you practice using the linux command line as well as have you setup a Github repository.
 
