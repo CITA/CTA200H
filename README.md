@@ -14,10 +14,11 @@ Location: The course will be held hybrid, both in person in MP257 and remotely, 
 ## Instructors
 
 * Course coordinator: Norm Murray -- murray at cita utoronto ca (you will need to fill in @ and dots/periods)
-* TA: To be determined
+* TA: Shivan Khullar
 * Lecturers:
     * Norman Murray
     * Janosz Dewberry
+    * Sam Hadden
 
 ## Timetable & Lecture Topics
 
@@ -27,10 +28,10 @@ This is a list of dates and topics for the course (subject to change):
 | ---- | ---------- | ----- |
 | 1. Tues May 2 | Norm | [Using the CITA Systems, Linux and Git](lecture_1_linux_git) |
 | 2. Weds May 3 | Norm | [Python Language Intro and Workflow](lecture_2_python_intro) |
-| 3. Thurs May 4 | Norm | [Structuring Your Projects](lecture_3_managing_code) |
-| 4. Fri May 5 | Norm | [Numerical Computing](lecture_4_numerical_python) |
-| 5. Mon May 8 |	Mubdi Rahman | [Data IO/Data Manipulation](lecture_5_data_wrangling) |
-| 6. Tues May 9 | Norm | [Symbolic Computation (Joel Meyers)](lecture_6_symbolic_python) |
+| 3. Thurs May 4 | Sam | [Symbolic Computation](lecture_6_symbolic_python) |
+| 4. Fri May 5 | Janosz | [Numerical Computing](lecture_4_numerical_python) |
+| 5. Mon May 8 |	Norm | [Data IO/Data Manipulation](lecture_5_data_wrangling) |
+| 6. Tues May 9 | Norm | [Structuring Your Projects](lecture_3_managing_code) |
 | 7. Weds May 10 | Norm | [Statistics and Data Analysis Tools (Carl-Johan Haster)](lecture_7_statistics) |
 | 8. Thurs May 11| Norm | [Monte Carlo Methods (Carl-Johan Haster)](lecture_8_monte_carlo) |
 | 9. Fri May 12| Norm | [Machine Learning (Dan Tamayo)](lecture_9_machine_learning) |
