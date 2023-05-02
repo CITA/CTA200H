@@ -6,7 +6,7 @@ This assignment will have you practice using the linux command line as well as h
 
 ### Part 1: Linux Command Line
 
-1. Go to your scratch-lustre folder on CITA. Create a folder called `CTA200_2022`. Inside this folder, make a folder called `assignment_1` and also add a file called `README.md`. Add the title `# CTA200 2022` to the `README.md` file using vi.
+1. Go to your scratch-lustre folder on CITA. Create a folder called `CTA200_2023`. Inside this folder, make a folder called `assignment_1` and also add a file called `README.md`. Add the title `# CTA200 2023` to the `README.md` file using vi.
 
 2. Somewhere in Norm's (username `murray`) home directory, there are two files named `Hello_world.c` and `Hello_world.py` (note that the H is capitalized). Find them and copy them to the `assignment_1` folder you created in step 1. You can use `find` to help you search for them.
 
@@ -25,16 +25,16 @@ This assignment will have you practice using the linux command line as well as h
 
 ### Part 2: Git
 
-1. Initialize a git repository in your `CTA200_2022` folder.
+1. Initialize a git repository in your `CTA200_2023` folder.
 
 2. Add and commit the `README.md` file.
 
 3. Also add and commit the changed versions of the C and Python programs to your git repo. Also commit the `output_.txt` files and the `history.txt` file.
 
-4. Make a new repository on your Github account called `CTA200_2022`. Add the Github repository as a remote for your local repository.
+4. Make a new repository on your Github account called `CTA200_2023`. Add the Github repository as a remote for your local repository.
 
 5. Push the changes from your local repository to the remote repository.
 
 ### How to submit
 
-Make sure that all of the files are visible in your Github repository. Send a link to your repository to Fergus (horrobin at astro dot utoronto dot ca) before the due date.
+Make sure that all of the files are visible in your Github repository. Send a link to your repository to Shivan (shivan dot khullar at mail dot utoronto dot ca) before the due date.
