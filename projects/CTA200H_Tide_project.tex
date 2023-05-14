@@ -1,0 +1,145 @@
+% Use only LaTeX2e, calling the article.cls class and 12-point type.
+
+\documentclass[12pt]{article}
+
+% Users of the {thebibliography} environment or BibTeX should use the
+% scicite.sty package, downloadable from *Science* at
+% http://www.sciencemag.org/authors/preparing-manuscripts-using-latex 
+% This package should properly format in-text
+% reference calls and reference-list numbers.
+
+\usepackage{scicite}
+
+\usepackage{times}
+
+\usepackage{graphicx} %Added by NWM
+%\graphicspath{{/Users/murray/Papers/Hanbo/Science/devel/spin_history/Analysis/11_April_2020/Figures/}}
+\graphicspath{{./Figures/}}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{caption}
+
+% The preamble here sets up a lot of new/revised commands and
+% environments.  It's annoying, but please do *not* try to strip these
+% out into a separate .sty file (which could lead to the loss of some
+% information when we convert the file to other formats).  Instead, keep
+% them in the preamble of your main LaTeX source file.
+
+
+% The following parameters seem to provide a reasonable page setup.
+
+\topmargin 0.0cm
+\oddsidemargin 0.2cm
+\textwidth 16cm 
+\textheight 21cm
+\footskip 1.0cm
+
+\newcommand \pasp {{PASP}}
+\newcommand \solphys {{Sol. Phy.}}
+\newcommand \grl {{Geophys. Res. Lett.}}
+\newcommand \nat {{Nature}}
+\newcommand \apss {{Astroph. Sp. Sci.}}
+\newcommand \aj {{Astron. J.}}
+\newcommand \jgr {{Journal of Geophysical Research}}
+\newcommand \aap {{Astron. \& Astroph.}}
+\newcommand \icarus {{Icarus}}
+%The next command sets up an environment for the abstract to your paper.
+
+\newenvironment{sciabstract}{%
+\begin{quote} \bf}
+{\end{quote}}
+
+
+
+% Include your paper's title here
+
+\title{Tidal Evolution of the Earth-Moon System}
+
+
+% Place the author information here.  Please hand-code the contact
+% information and notecalls; do *not* use \footnote commands.  Let the
+% author contact information appear immediately below the author names
+% as shown.  We would also prefer that you don't change the type-size
+% settings shown here.
+
+
+% Include the date command, but leave its argument blank.
+
+\date{}
+
+%%%%%%%%%%%%%%%%% END OF PREAMBLE %%%%%%%%%%%%%%%%
+
+\begin{document} 
+
+\baselineskip24pt
+
+\maketitle 
+
+The goal of this project is to write a code to integrate the evolution of the Earth-Moon system, from the present day configuration, back into the past. I suggest that you write the code in python 3 in a juypter notebook, but you can use a different language if you prefer. Using the equations and parameters given below, you should find that the Earth-Moon separation goes to zero, i.e., that the two bodies collide, about a billion years into the past. 
+
+Ocean tides, experienced on a daily basis by beachgoers, are caused by the gravitational attraction of the Moon, and to a lesser extent, the Sun. Lunar tides are known to increase both the length of day and the length of the Lunar month; the Lunar torque $-T_{\leftmoon}$ produced by the Moon's gravity acting on the tidal bulge in the oceans and solid body of Earth reduces the spin angular momentum $S_\oplus$ of the rotating Earth, and adds the same amount to the orbital angular momentum $L_{\leftmoon}$ of the Moon, with no change in the sum $L_{EM}\equiv S_\oplus+L_{\leftmoon}$. The solar torque $T_\odot$ associated with the solar tide increases both the length of day and the length of the year; it also reduces, very slightly, $L_{EM}$, increasing the orbital angular momentum $L_\oplus$ of Earth by the same amount:
+
+%
+\begin{eqnarray}
+\frac{dL_\oplus}{dt} &=& T_\odot,\\
+\frac{dS_\oplus}{dt} &=& -T_\odot-T_{\leftmoon},\\
+\frac{dL_{\leftmoon}}{dt} &=& T_{\leftmoon}.
+\end{eqnarray}
+%
+
+You can use a simple tidal model, in which the the Lunar tidal torque is 
+\begin{equation}
+  T_{\leftmoon} = \frac{3}{2}\frac{G m^2_{\leftmoon}}{a_{\leftmoon}}\left(\frac{R_\oplus}{a_{\leftmoon}}\right)^5
+  \frac{k_2}{Q_{\leftmoon}}.
+\end{equation}
+In this expression, $G=6.67\times10^{-8}g^{-1}\,cm^3\, s^{-2}$ is Newton's gravitational constant,  $m_{\leftmoon}=7.349\times10^{25}\, g$ is the Lunar mass, $R_\oplus=6,371\, km$ is the radius of Earth, and $a_{\leftmoon}$ is the semimajor axis of the Lunar orbit.  The quantity $k_2=0.298$ is the (dimensionless) Love number of Earth; it encapsulates how rigid the Earth is. The dimensionless tidal quality factor $Q_{\leftmoon}$  is the inverse of the fraction of the tidal energy that is dissipated per tidal cycle. You can assume that $Q_{\leftmoon}=11.5$, the value seen today.
+
+The present day value of the Lunar semimajoraxis is $a_{\leftmoon}(0)=384,000\, km$.
+
+The Solar tidal torque, $T_\odot$, is usually taken to be proportional to $T_{\rm L}$, a practice we will follow: $T_{\rm L}+T_\odot=T_{\rm L}(1+\beta)$, where
+\begin{equation}
+  \beta = \frac{1}{4.7}  \left(\frac{a_{\leftmoon}}{a_{\leftmoon}(0)}\right)^6.
+\end{equation}
+The factor $1/4.7$ is the present day ratio of $T_\odot/T_{\leftmoon}$; since $a_{\leftmoon}/a_{\leftmoon}(0)$ was less than one in the past, the Solar tide was relatively less important then.
+
+This is in initial value problem, if you think of time starting at $t=0$ and becoming more and more negative, i.e., $t<0$. You can use the integrator of your choice; I would suggest either odeint or solve\_ivp.
+
+Since it is an initial value problem, you will need the initial values:
+
+\begin{eqnarray}
+L_\oplus &=& M_\oplus\sqrt{G(M_\odot + M_\oplus) a_\oplus},\\
+S_\oplus &=& I\Omega_\oplus,\\
+L_{\leftmoon} &=& m_{\leftmoon}\sqrt{G(M_\oplus+m_{\leftmoon}) a_{\leftmoon}}.
+\end{eqnarray}
+
+The mass of the sun is $M_\odot=1.98\times10^{33}\, g$, that of Earth is $M_\oplus=5.97\times10^{27}\, g$, the semimajor axis of Earth's orbit is $a_\oplus=1.49\times10^8\, km$, and the Earth's moment of inertial is $I=0.3299M_\oplus R_\oplus^2$. The angular velocity of the Earth is $\Omega_\oplus=2\pi/lod$, where $lod$ is the length of the sidereal day, $86164$ seconds (about four minutes less than the length of the solar day, 24 hours, by definition).
+
+\begin{enumerate}
+  \item Pick a unit system. I suggest cgs, since I gave most--but not all!--of the quantities in cgs. Calculate $L_\oplus$, $S_\oplus$ and $L_{\leftmoon}$ in those units and report them. (10 pt)
+
+  \item Give the present day values of $T_{\leftmoon}$ and $T_\odot$ in the same unit system. You can check this against values you can find, but if you do, report where you found them. (10 pt)
+
+  \item Calculate the three timescales associated with equations (1)-(3), in years; for example, from equation (1)
+    \begin{equation}
+      \tau_{L_\oplus}=L_\oplus/T_\odot.
+    \end{equation}
+    (10 pt)
+
+  \item Write a function to evaluate the right hand sides of equations (1)-(3). This should look like either the function ``damped\_oscillator'' or the function ``pendulum'' in the numerical\_integration.ipynb notebook from Friday's lecture. Note that those examples are very terse, and yours might be a bit longer. You might also want to define auxiliary functions like T\_moon(a\_moon).  (10 pt)
+
+  \item Use this function, together with odeint or solve\_ivp, to integrate back in time until the Moon hits Earth. How long, in years, did the Moon form, according to this tidal model? (20 pt)
+
+  \item Make a figure showing $a_{\leftmoon}(t)$. Label the axes, with units. I suggest either millions or billions of years for the x-axis (age), and kilometers for the y-axis. Note that even if you get an answer for question 5 that you find unreliable, you will still get full credit for making the figure. (10 pt)
+
+  \item Make a figure showing the length of the day (in hours) versus age, with the same note as in the previous question. (10 pt)
+
+  \item It is believed that the Moon formed just outside the Roche radius. Look up the Roche radius, and, assuming that the moon did form there, what was the length of the day at the time of the Moon's formation? (10 pt)
+
+  \item Look up estimates for the age of the Moon, and of the Earth, and report them. You should find that both the Earth and the Moon are older than the estimate from the tidal equations. This problem was first noted in the 1950's. (10 pt)
+
+    \item BONUS: Try to think of what might be wrong, either in the tidal equations, or in the estimates of the age of the Earth and the Moon. Then order them by what you think is the most likely problem, and give reasons for your ordering. (10 pt)
+    
+\end{enumerate}
+
+\end{document}
