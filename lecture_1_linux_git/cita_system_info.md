@@ -1,12 +1,12 @@
 # CTA200 2021 Computing Information Sheet
 
-Welcome to the CITA Computing Course (CTA200) for 2022! If you have signed up for the course or let us know that you want to audit, you should have received an email with information about a computer account and related instructions (including a Secret key); if not, please let Norm or Fergus know. This Information sheet provides some information to get you started with the CITA computing resources.
+Welcome to the CITA Computing Course (CTA200) for 2024! If you have signed up for the course or let us know that you want to audit, you should have received an email with information about a computer account and related instructions (including a Secret key); if not, please let Norm or Shivan know. This Information sheet provides some information to get you started with the CITA computing resources.
 
 For more information, please visit the CITA Wiki at [http://wiki.cita.utoronto.ca](https://wiki.cita.utoronto.ca/index.php/Welcome_to_the_CITA_Wiki).
 
 You will need your CITA or CTA200 login credentials to access the wiki.
 
-For the ses of this course, most laptops will provide sufficient compute power, but for your research projects over the summer you will probably require more. This may be in the form of a server (like lobster on the CITA network), a cluster (like CITA's Sunnyvale) or a national-scale machine like SciNet's Niagara.
+For this course, most laptops will provide sufficient compute power, but for your research projects over the summer you will probably require more. This may be in the form of a server (like lobster on the CITA network), a cluster (like CITA's Sunnyvale) or a national-scale machine like SciNet's Niagara.
 
 To access any of these you will need a secure login facility; all the machines just named, and most large systems, use ssh for logins, often with some form of Two-factor Authentication. Here we describe the CITA setup, but other systems are similar.
 
