@@ -37,4 +37,4 @@ This assignment will have you practice using the linux command line as well as h
 
 ### How to submit
 
-Make sure that all of the files are visible in your Github repository. Send a link to your repository to Shivan (shivan dot khullar at mail dot utoronto dot ca) before the due date.
+Make sure that all of the files are visible in your Github repository. Send a link to your repository to Daven (d dot cocroft at mail dot utoronto dot ca) before the due date.
