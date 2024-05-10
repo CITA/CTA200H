@@ -3,6 +3,22 @@
 
 This assignment will have you practice some basic Python syntax such as functions, for loops and flow control. Write all of your code in a jupyter notebook and save it as `assignment_2/assignment.ipynb` in your git repo. Make sure you push to Github before the due date.
 
+Note:
+
+For all functions, we requrire that you include a document string, i.e., inside triple quotes, like this:
+
+"""
+This function calculates the sine of x
+
+Parameters:
+x-----------array-like, the angle in radians
+
+Returns:
+
+sine_x------array-like, the quantity sin(x)
+
+"""
+
 ### Part 1
 
 Write a python function for the function $f(x) = x^3 - x^2 - 1$. Also, write a function for it's derivative (you will have to work out $df/dx$ yourself), you can call these functions `f` and `df`.
