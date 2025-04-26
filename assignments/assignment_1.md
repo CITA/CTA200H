@@ -6,7 +6,7 @@ This assignment will have you practice using the linux command line as well as h
 
 ### Part 1: Linux Command Line
 
-1. Go to your scratch-lustre folder on CITA. Create a folder called `CTA200_2024`. Inside this folder, make a folder called `assignment_1` and also add a file called `README.md`. Add the title `# CTA200 2024` to the `README.md` file using vi.
+1. Go to your scratch-lustre (`/fs/lustre/scratch/USERNAME`) folder on CITA. Create a folder called `CTA200_2024`. Inside this folder, make a folder called `assignment_1` and also add a file called `README.md`. Add the title `# CTA200 2024` to the `README.md` file using vi.
 
 2. Somewhere in Norm's (username `murray`) home directory, there are two files named `Hello_world.c` and `Hello_world.py` (note that the H is capitalized). Find them and copy them to the `assignment_1` folder you created in step 1. You can use `find` to help you search for them.
 
