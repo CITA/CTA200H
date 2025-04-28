@@ -6,19 +6,19 @@ This course is for summer undergraduates performing research in astrophysics at 
 
 ## Logistics
 
-The course will run every afternoon from **1:00pm to 5:00p**, from **Tuesday May 7** to **Friday May 17**.
+The course will run every afternoon from **1:00pm to 5:00p**, from **Monday May 5** to **Thursday May 15**.
 This 4-hour block will be split into two hours of lecture followed by two hours of tutorial time, in which students will work on their course homework.
 
 Location: The course will be held hybrid, both in person in MP257 and remotely, via zoom. Access to CITA computers will be done via VNC Remote Desktop or SSH.
 
 ## Instructors
 
-* Course coordinator: Norm Murray -- murray at cita utoronto ca (you will need to fill in @ and dots/periods)
-* TA: Daven Cocroft
+* Course coordinators: Maya Fishbach (fishbach at cita utoronto ca) and Bart Ripperda (ripperda at cita utoronto ca)
+* TA: Alicia Savelli (alicia savelli at utoronto ca)
+* SURF program coordinator: Reed Essick 
 * Lecturers:
-    * Norman Murray
-    * Janosz Dewberry
-    * Sam Hadden
+    * Maya Fishbach
+    * Bart Ripperda
 
 ## Timetable & Lecture Topics
 
@@ -26,15 +26,15 @@ This is a list of dates and topics for the course (subject to change):
 
 | Date | Instructor | Topic |
 | ---- | ---------- | ----- |
-| 1. Tues May 7 | Norm | [Using the CITA Systems, Linux and Git](lecture_1_linux_git) |
-| 2. Weds May 8 | Norm | [Python Language Intro and Workflow](lecture_2_python_intro) |
-| 3. Thurs May 9 | Sam | [Symbolic Computation](lecture_6_symbolic_python) |
-| 4. Fri May 10 | Janosz | [Numerical Computing](lecture_4_numerical_python) |
-| 5. Mon May 13 |	Norm | [Data IO/Data Manipulation](lecture_5_data_wrangling) |
-| 6. Tues May 14 | Norm | [Structuring Your Projects](lecture_3_managing_code) |
-| 7. Weds May 15 | Norm | [Statistics and Data Analysis Tools (Carl-Johan Haster)](lecture_7_statistics) |
-| 8. Thurs May 16| Norm | [Monte Carlo Methods (Carl-Johan Haster)](lecture_8_monte_carlo) |
-| 9. Fri May 17| Norm | [Machine Learning (Dan Tamayo)](lecture_9_machine_learning) |
+| 1. Mon May 5 | ... | [Using the CITA Systems, Linux and Git](lecture_1_linux_git) |
+| 2. Tues May 6 | ... | [Python Language Intro and Workflow](lecture_2_python_intro) |
+| 3. Wed May 7 | ... | [Symbolic Computation](lecture_6_symbolic_python) |
+| 4. Thurs May 8 | ... | [Numerical Computing](lecture_4_numerical_python) |
+| 5. Fri May 9 |	... | [Data IO/Data Manipulation](lecture_5_data_wrangling) |
+| 6. Mon May 12 | ... | [Structuring Your Projects](lecture_3_managing_code) |
+| 7. Tues May 13 | ... | [Statistics and Data Analysis Tools (Carl-Johan Haster)](lecture_7_statistics) |
+| 8. Wed May 14| ... | [Monte Carlo Methods (Carl-Johan Haster)](lecture_8_monte_carlo) |
+| 9. Thurs May 15| ... | [Machine Learning (Dan Tamayo)](lecture_9_machine_learning) |
 
 
 # Marking Scheme
@@ -53,12 +53,12 @@ In the first week students will work on homework problems related to the first w
 
 The problem set will be divided into three smaller assignments to be handed in every couple of days. 
 
-* [Assignment 1 Due by 1PM May 9th](assignments/assignment_1.md)
-* [Assignment 2 Due by 11:59PM May 11th](assignments/assignment_2.pdf)
-* [Assignment 3 Due by 1PM May 14th](assignments/assignment_3.pdf)
+* [Assignment 1 Due by 1PM May 7th](assignments/assignment_1.md)
+* [Assignment 2 Due by 11:59PM May 9th](assignments/assignment_2.pdf)
+* [Assignment 3 Due by 1PM May 13th](assignments/assignment_3.pdf)
 
 ## Project
-In the second week students will work on a project supplied either by their supervisor or the instructor. The project is due by 5PM on Monday May 20th 2024.
+In the second week students will work on a project supplied either by their supervisor or the instructor. The project is due by 5PM on Monday May 19th 2025.
 
 ## Using the System
 
