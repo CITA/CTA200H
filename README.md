@@ -19,6 +19,9 @@ Location: The course will be held hybrid, both in person in MP257 and remotely, 
 * Lecturers:
     * Maya Fishbach
     * Bart Ripperda
+* Guest lecturers:
+    * Sebastiano von Fellenberg
+    * Jennifer Y. H. Chan
 
 ## Timetable & Lecture Topics
 
@@ -26,15 +29,15 @@ This is a list of dates and topics for the course (subject to change):
 
 | Date | Instructor | Topic |
 | ---- | ---------- | ----- |
-| 1. Mon May 5 | ... | [Using the CITA Systems, Linux and Git](lecture_1_linux_git) |
-| 2. Tues May 6 | ... | [Python Language Intro and Workflow](lecture_2_python_intro) |
-| 3. Wed May 7 | ... | [Symbolic Computation](lecture_6_symbolic_python) |
-| 4. Thurs May 8 | ... | [Numerical Computing](lecture_4_numerical_python) |
-| 5. Fri May 9 |	... | [Data IO/Data Manipulation](lecture_5_data_wrangling) |
-| 6. Mon May 12 | ... | [Structuring Your Projects](lecture_3_managing_code) |
-| 7. Tues May 13 | ... | [Statistics and Data Analysis Tools (Carl-Johan Haster)](lecture_7_statistics) |
-| 8. Wed May 14| ... | [Monte Carlo Methods (Carl-Johan Haster)](lecture_8_monte_carlo) |
-| 9. Thurs May 15| ... | [Machine Learning (Dan Tamayo)](lecture_9_machine_learning) |
+| 1. Mon May 5 | Bart | [Using the CITA Systems, Linux and Git](lecture_1_linux_git) |
+| 2. Tues May 6 | Bart | [Python Language Intro and Workflow](lecture_2_python_intro) |
+| 3. Wed May 7 | Maya | [Structuring Your Projects](lecture_3_managing_code)|
+| 4. Thurs May 8 | Bart | [Numerical Computing](lecture_4_numerical_python) |
+| 5. Fri May 9 |	Bart | [Data IO/Data Manipulation](lecture_5_data_wrangling) |
+| 6. Mon May 12 | Sebastiano and Jennifer | Using Astropy |
+| 7. Tues May 13 | Maya | [Statistics and Data Analysis Tools (Carl-Johan Haster)](lecture_7_statistics) |
+| 8. Wed May 14| Maya | [Monte Carlo Methods (Carl-Johan Haster)](lecture_8_monte_carlo) |
+| 9. Thurs May 15| Maya | Hierarchical Bayesian Inference |
 
 
 # Marking Scheme
