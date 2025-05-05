@@ -13,8 +13,8 @@ Location: The course will be held hybrid, both in person in MP257 and remotely, 
 
 ## Instructors
 
-* Course coordinators: Maya Fishbach (fishbach at cita utoronto ca) and Bart Ripperda (ripperda at cita utoronto ca)
-* TA: Alicia Savelli (alicia savelli at utoronto ca)
+* Course coordinators: Maya Fishbach (fishbach at cita dot utoronto dot ca) and Bart Ripperda (ripperda at cita dot utoronto dot ca)
+* TA: Alicia Savelli (alicia dot savelli at utoronto dot ca)
 * SURF program coordinator: Reed Essick 
 * Lecturers:
     * Maya Fishbach
@@ -34,9 +34,9 @@ This is a list of dates and topics for the course (subject to change):
 | 3. Wed May 7 | Maya | [Structuring Your Projects](lecture_3_managing_code)|
 | 4. Thurs May 8 | Bart | [Numerical Computing](lecture_4_numerical_python) |
 | 5. Fri May 9 |	Bart | [Data IO/Data Manipulation](lecture_5_data_wrangling) |
-| 6. Mon May 12 | Sebastiano and Jennifer | Using Astropy |
-| 7. Tues May 13 | Maya | [Statistics and Data Analysis Tools (Carl-Johan Haster)](lecture_7_statistics) |
-| 8. Wed May 14| Maya | [Monte Carlo Methods (Carl-Johan Haster)](lecture_8_monte_carlo) |
+| 6. Mon May 12 | Sebastiano and Jennifer | [Using Astropy](lecture_10_astropy) |
+| 7. Tues May 13 | Maya | [Statistics and Data Analysis Tools](lecture_7_statistics) |
+| 8. Wed May 14| Maya | [Monte Carlo Methods](lecture_8_monte_carlo) |
 | 9. Thurs May 15| Maya | Hierarchical Bayesian Inference |
 
 
