@@ -37,7 +37,7 @@ This is a list of dates and topics for the course (subject to change):
 | 6. Mon May 12 | Sebastiano and Jennifer | [Using Astropy](lecture_10_astropy) |
 | 7. Tues May 13 | Maya | [Statistics and Data Analysis Tools](lecture_7_statistics) |
 | 8. Wed May 14| Maya | [Monte Carlo Methods](lecture_8_monte_carlo) |
-| 9. Thurs May 15| Maya | Hierarchical Bayesian Inference |
+| 9. Thurs May 15| Maya | [Hierarchical Bayesian inference](lecture_11_hierarchical_inference)|
 
 
 # Marking Scheme
