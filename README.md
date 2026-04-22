@@ -31,14 +31,14 @@ This is a list of dates and topics for the course (subject to change):
 
 | Date | Instructor | Topic |
 | ---- | ---------- | ----- |
-| 1. Mon May 5 | Vera | [Using the CITA Systems, Linux and Git](lecture_1_linux_git) |
+| 1. Mon May 5 | Bart | [Using the CITA Systems, Linux and Git](lecture_1_linux_git) |
 | 2. Tues May 6 | Bart | [Python Language Intro and Workflow](lecture_2_python_intro) |
 | 3. Wed May 7 | Bart | [Structuring Your Projects](lecture_3_managing_code)|
 | 4. Thurs May 8 | Bart | [Numerical Computing](lecture_4_numerical_python) |
 | 5. Fri May 9 |	Bart | [Data IO/Data Manipulation](lecture_5_data_wrangling) |
 | 6. Mon May 12 | Vittoria | [Finite Volume Methods]() |
 | 7. Tues May 13 | Sebastiano | [Using Astropy](lecture_10_astropy) |
-| 8. Wed May 14| Bart | [Monte Carlo Methods](lecture_8_monte_carlo) |
+| 8. Wed May 14| Vera | [Monte Carlo and Statistical Methods](lecture_8_monte_carlo) |
 | 9. Thurs May 15| Rohan | [Machine Learning and Computational Imaging]()|
 
 
