@@ -13,15 +13,17 @@ Location: The course will be held hybrid, both in person in MP257 and remotely, 
 
 ## Instructors
 
-* Course coordinators: Maya Fishbach (fishbach at cita dot utoronto dot ca) and Bart Ripperda (ripperda at cita dot utoronto dot ca)
+* Course coordinator: Bart Ripperda (ripperda at cita dot utoronto dot ca)
 * TA: Alicia Savelli (alicia dot savelli at utoronto dot ca)
-* SURF program coordinator: Reed Essick 
 * Lecturers:
-    * Maya Fishbach
     * Bart Ripperda
 * Guest lecturers:
     * Sebastiano von Fellenberg
-    * Jennifer Y. H. Chan
+    * Vittoria Berta
+    * Rohan Dahale
+    * Koushik Chatterjee
+    * Vera Delfavero
+
 
 ## Timetable & Lecture Topics
 
@@ -29,15 +31,15 @@ This is a list of dates and topics for the course (subject to change):
 
 | Date | Instructor | Topic |
 | ---- | ---------- | ----- |
-| 1. Mon May 5 | Bart | [Using the CITA Systems, Linux and Git](lecture_1_linux_git) |
+| 1. Mon May 5 | Vera | [Using the CITA Systems, Linux and Git](lecture_1_linux_git) |
 | 2. Tues May 6 | Bart | [Python Language Intro and Workflow](lecture_2_python_intro) |
-| 3. Wed May 7 | Maya | [Structuring Your Projects](lecture_3_managing_code)|
+| 3. Wed May 7 | Bart | [Structuring Your Projects](lecture_3_managing_code)|
 | 4. Thurs May 8 | Bart | [Numerical Computing](lecture_4_numerical_python) |
 | 5. Fri May 9 |	Bart | [Data IO/Data Manipulation](lecture_5_data_wrangling) |
-| 6. Mon May 12 | Sebastiano and Jennifer | [Using Astropy](lecture_10_astropy) |
-| 7. Tues May 13 | Maya | [Statistics and Data Analysis Tools](lecture_7_statistics) |
-| 8. Wed May 14| Maya | [Monte Carlo Methods](lecture_8_monte_carlo) |
-| 9. Thurs May 15| Maya | [Hierarchical Bayesian inference](lecture_11_hierarchical_inference)|
+| 6. Mon May 12 | Vittoria | [Finite Volume Methods]() |
+| 7. Tues May 13 | Sebastiano | [Using Astropy](lecture_10_astropy) |
+| 8. Wed May 14| Bart | [Monte Carlo Methods](lecture_8_monte_carlo) |
+| 9. Thurs May 15| Rohan | [Machine Learning and Computational Imaging]()|
 
 
 # Marking Scheme
