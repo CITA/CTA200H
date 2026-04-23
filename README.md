@@ -6,7 +6,7 @@ This course is for summer undergraduates performing research in astrophysics at 
 
 ## Logistics
 
-The course will run every afternoon from **1:00pm to 5:00p**, from **Monday May 5** to **Thursday May 15**.
+The course will run every afternoon from **1:00pm to 5:00p**, from **Monday May 4** to **Thursday May 14**.
 This 4-hour block will be split into two hours of lecture followed by two hours of tutorial time, in which students will work on their course homework.
 
 Location: The course will be held hybrid, both in person in MP257 and remotely, via zoom. Access to CITA computers will be done via VNC Remote Desktop or SSH.
@@ -31,15 +31,15 @@ This is a list of dates and topics for the course (subject to change):
 
 | Date | Instructor | Topic |
 | ---- | ---------- | ----- |
-| 1. Mon May 4 | Bart | [Using the CITA Systems, Linux and Git](lecture_1_linux_git) |
+| 1. Mon May 4 | Vera | [Using the CITA Systems, Linux and Git](lecture_1_linux_git) |
 | 2. Tues May 5 | Bart | [Python Language Intro and Workflow](lecture_2_python_intro) |
 | 3. Wed May 6 | Bart | [Structuring Your Projects](lecture_3_managing_code)|
 | 4. Thurs May 7 | Bart | [Numerical Computing](lecture_4_numerical_python) |
 | 5. Fri May 8 |	Bart | [Data IO/Data Manipulation](lecture_5_data_wrangling) |
 | 6. Mon May 11 | Vittoria | [Finite Volume Methods]() |
 | 7. Tues May 12 | Sebastiano | [Using Astropy](lecture_10_astropy) |
-| 8. Wed May 13 | Vera | [Monte Carlo and Statistical Methods](lecture_8_monte_carlo) |
-| 9. Thurs May 14 | Rohan | [Machine Learning and Computational Imaging]()|
+| 8. Wed May 13 | Vera | [Statistical Methods](lecture_7_statistics) |
+| 9. Thurs May 14 | Rohan | [Machine Learning and Computational Imaging](lecture_9_machine_learning)|
 
 
 # Marking Scheme
