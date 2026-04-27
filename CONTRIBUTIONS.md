@@ -7,7 +7,7 @@ Individual contributions are often listed in more detail within lectures and ass
 
   * ??? - 2024: Norm Murray
   * 2025: Maya Fishbach & Bart Ripperda
-  * 2026: Bart Ripperda
+  * 2026: Bart Ripperda & Reed Essick
 
 ### Guest Lecturers (postdoctoral fellows)
 
