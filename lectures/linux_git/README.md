@@ -1,4 +1,4 @@
-# Lecture 1: Using the CITA system, linux commands, git
+# Using the CITA system, linux commands, git
 
 ## Contents
 
