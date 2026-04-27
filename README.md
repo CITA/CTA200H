@@ -1,0 +1,1 @@
+syllabi/syllabus-2026.md
