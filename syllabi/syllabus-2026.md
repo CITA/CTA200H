@@ -37,7 +37,7 @@ This is a list of dates and topics for the course (subject to change):
 | Thurs May 7  | Bart       | [Numerical Computing](https://github.com/CITA/CTA200H/blob/master/lectures/numerical_python)                        |
 | Fri May 8    | Bart       | [Data IO/Data Manipulation](https://github.com/CITA/CTA200H/blob/master/lectures/data_wrangling)                    |
 | Mon May 11   | Vittoria   | [Finite Volume Methods](https://github.com/CITA/CTA200H/blob/master/lectures/finite_volume_methods)                 |
-| Tues May 12  | Sebastiano | [Using Astropy](https://github.com/CITA/CTA200H/blob/master/lectures/astropy_intro)                                 |
+| Tues May 12  | Sebastiano | [Using `astropy`](https://github.com/CITA/CTA200H/blob/master/lectures/astropy_intro)                                 |
 | Wed May 13   | Vera       | [Statistical Methods](https://github.com/CITA/CTA200H/blob/master/lectures/statistics)                              |
 | Thurs May 14 | Rohan      | [Machine Learning and Computational Imaging](https://github.com/CITA/CTA200H/blob/master/lectures/machine_learning) |
 
