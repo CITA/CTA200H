@@ -76,3 +76,7 @@ To download all course material to your computer:
 ```
 git clone git@github.com:CITA/CTA200H.git
 ```
+
+## Contributions
+
+For a partial list of contributions to CTA200 course materials, see [here](https://github.com/CITA/CTA200H/blob/master/CONTRIBUTIONS.md).
