@@ -29,17 +29,17 @@ Access to CITA computers will be done via VNC Remote Desktop or SSH.
 
 This is a list of dates and topics for the course (subject to change):
 
-| Date         | Instructor | Topic                                                                                                                          |
-|--------------|------------|--------------------------------------------------------------------------------------------------------------------------------|
-| Mon May 4    | Vera       | [Using the CITA Systems, Linux and Git](https://github.com/CITA/CTA200H/blob/refactor-Apr-2026/lectures/linux_git)             |
-| Tues May 5   | Bart       | [Python Language Intro and Workflow](https://github.com/CITA/CTA200H/blob/refactor-Apr-2026/lectures/python_intro)             |
-| Wed May 6    | Bart       | [Structuring Your Projects](https://github.com/CITA/CTA200H/blob/refactor-Apr-2026/lectures/managing_code)                     |
-| Thurs May 7  | Bart       | [Numerical Computing](https://github.com/CITA/CTA200H/blob/refactor-Apr-2026/lectures/numerical_python)                        |
-| Fri May 8    | Bart       | [Data IO/Data Manipulation](https://github.com/CITA/CTA200H/blob/refactor-Apr-2026/lectures/data_wrangling)                    |
-| Mon May 11   | Vittoria   | [Finite Volume Methods](https://github.com/CITA/CTA200H/blob/refactor-Apr-2026/lectures/finite_volume_methods)                 |
-| Tues May 12  | Sebastiano | [Using Astropy](https://github.com/CITA/CTA200H/blob/refactor-Apr-2026/lectures/astropy_intro)                                 |
-| Wed May 13   | Vera       | [Statistical Methods](https://github.com/CITA/CTA200H/blob/refactor-Apr-2026/lectures/statistics)                              |
-| Thurs May 14 | Rohan      | [Machine Learning and Computational Imaging](https://github.com/CITA/CTA200H/blob/refactor-Apr-2026/lectures/machine_learning) |
+| Date         | Instructor | Topic                                                                                                               |
+|--------------|------------|---------------------------------------------------------------------------------------------------------------------|
+| Mon May 4    | Vera       | [Using the CITA Systems, Linux and Git](https://github.com/CITA/CTA200H/blob/master/lectures/linux_git)             |
+| Tues May 5   | Bart       | [Python Language Intro and Workflow](https://github.com/CITA/CTA200H/blob/master/lectures/python_intro)             |
+| Wed May 6    | Bart       | [Structuring Your Projects](https://github.com/CITA/CTA200H/blob/master/lectures/managing_code)                     |
+| Thurs May 7  | Bart       | [Numerical Computing](https://github.com/CITA/CTA200H/blob/master/lectures/numerical_python)                        |
+| Fri May 8    | Bart       | [Data IO/Data Manipulation](https://github.com/CITA/CTA200H/blob/master/lectures/data_wrangling)                    |
+| Mon May 11   | Vittoria   | [Finite Volume Methods](https://github.com/CITA/CTA200H/blob/master/lectures/finite_volume_methods)                 |
+| Tues May 12  | Sebastiano | [Using Astropy](https://github.com/CITA/CTA200H/blob/master/lectures/astropy_intro)                                 |
+| Wed May 13   | Vera       | [Statistical Methods](https://github.com/CITA/CTA200H/blob/master/lectures/statistics)                              |
+| Thurs May 14 | Rohan      | [Machine Learning and Computational Imaging](https://github.com/CITA/CTA200H/blob/master/lectures/machine_learning) |
 
 
 # Marking Scheme
