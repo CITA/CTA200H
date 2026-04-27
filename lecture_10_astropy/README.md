@@ -13,4 +13,5 @@
 
 | Year | Instructor |
 | ---- | ---------- |
-| 2025 | Dr. Sebastiano von Fellenberg |
+| 2025 | Dr. Sebastiano von Fellenberg, Dr. Jennifer Chan |
+| 2026 | Dr. Sebastiano von Fellenberg |
