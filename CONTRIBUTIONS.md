@@ -34,18 +34,22 @@ Individual contributions are often listed in more detail within lectures and ass
 
 ## Lectures
 
-  * [Using `astropy`](https://github.com/CITA/CTA200H/tree/master/lectures/astropy_intro): ???
-  * [Data IO/Data Manipulation](https://github.com/CITA/CTA200H/tree/master/lectures/data_wrangling): ???
-  * [Hierarchical Inference](https://github.com/CITA/CTA200H/tree/master/lectures/hierarchical_inference): ???
   * [Using the CITA Systems, Linux and Git](https://github.com/CITA/CTA200H/tree/master/lectures/linux_git): ???
-  * [Machine Learning and Compuational Imaging](https://github.com/CITA/CTA200H/tree/master/lectures/machine_learning): ???
   * [Structuring Your Projects](https://github.com/CITA/CTA200H/tree/master/lectures/managing_code): ???
-  * [Monte Carlo Techniques](https://github.com/CITA/CTA200H/tree/master/lectures/monte_carlo): ???
-  * [Numerical Computing](https://github.com/CITA/CTA200H/tree/master/lectures/numerical_python): ???
+
   * [Python Language Intro and Workflow](https://github.com/CITA/CTA200H/tree/master/lectures/python_intro): ???
-  * [Statistical Methods](https://github.com/CITA/CTA200H/tree/master/lectures/statistics): ???
+  * [Data IO/Data Manipulation](https://github.com/CITA/CTA200H/tree/master/lectures/data_wrangling): ???
+  * [Numerical Computing](https://github.com/CITA/CTA200H/tree/master/lectures/numerical_python): ???
+  * [Using `astropy`](https://github.com/CITA/CTA200H/tree/master/lectures/astropy_intro): ???
   * [Symbolic Python](https://github.com/CITA/CTA200H/tree/master/lectures/symbolic_python): ???
-  * [Finite Volume Methods](https://github.com/CITA/CTA200H/blob/master/lectures/finite_volume_methods): Vittoria Berta
+
+  * [Machine Learning and Compuational Imaging](https://github.com/CITA/CTA200H/tree/master/lectures/machine_learning): developed by Kristen Menou
+
+  * [Finite Volume Methods](https://github.com/CITA/CTA200H/blob/master/lectures/finite_volume_methods): developed by Vittoria Berta in 2026
+
+  * [Monte Carlo Techniques](https://github.com/CITA/CTA200H/tree/master/lectures/monte_carlo): developed by Maya Fishbach in 2025
+  * [Statistical Methods](https://github.com/CITA/CTA200H/tree/master/lectures/statistics): ???
+  * [Hierarchical Inference](https://github.com/CITA/CTA200H/tree/master/lectures/hierarchical_inference): developed by Maya Fishbach in 2025
 
 ## Assignments
 
@@ -56,6 +60,9 @@ Individual contributions are often listed in more detail within lectures and ass
 ## Projects
 
   * [guidelines](https://github.com/CITA/CTA200H/blob/master/projects/project_guidelines.pdf): ???
+
+Example Projects:
+
   * [Distance to SgrA](https://github.com/CITA/CTA200H/blob/refactor-Apr-2026/projects/AssigmentDistance2SgrA_.pdf): ???
   * [Tides](https://github.com/CITA/CTA200H/blob/refactor-Apr-2026/projects/CTA200H_Tide_project.pdf): ???
   * [Radial Velocities](https://github.com/CITA/CTA200H/blob/refactor-Apr-2026/projects/rv/rv_fitting.pdf): Fergus Horrobin
