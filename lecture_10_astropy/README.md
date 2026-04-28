@@ -1,5 +1,12 @@
 # Contributions — Lecture 10: Introduction to Astropy
 
+## Pre-Lecture Setup
+
+Students should complete the agentic tools setup before attending the lecture:
+[setup_agentic_tools.md](setup_agentic_tools.md)
+
+---
+
 ## Developers
 
 | Notebook | Developer |
