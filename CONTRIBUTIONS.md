@@ -43,9 +43,9 @@ Python
 
   * [Python Language Intro and Workflow](https://github.com/CITA/CTA200H/tree/master/lectures/python_intro): ???
   * [Data IO/Data Manipulation](https://github.com/CITA/CTA200H/tree/master/lectures/data_wrangling): ???
-  * [Numerical Computing](https://github.com/CITA/CTA200H/tree/master/lectures/numerical_python): Janosz Dewberry, Fergus Horrobin
+  * [Numerical Computing](https://github.com/CITA/CTA200H/tree/master/lectures/numerical_python): developed by Janosz Dewberry, Fergus Horrobin
   * [Using `astropy`](https://github.com/CITA/CTA200H/tree/master/lectures/astropy_intro): ???
-  * [Symbolic Python](https://github.com/CITA/CTA200H/tree/master/lectures/symbolic_python): Sam Hadden
+  * [Symbolic Python](https://github.com/CITA/CTA200H/tree/master/lectures/symbolic_python): developed by Sam Hadden
 
 Machine Learning
 
