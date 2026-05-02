@@ -9,7 +9,7 @@ This course is for summer undergraduates performing research in astrophysics at 
 The course will run every afternoon from **1:00pm to 5:00p**, from **Monday May 4** to **Thursday May 14**.
 This 4-hour block will be split into two hours of lecture followed by two hours of tutorial time, in which students will work on their course homework.
 
-Location: The course will be held hybrid, both in person in MP257 and remotely, via zoom. Access to CITA computers will be done via VNC Remote Desktop or SSH.
+Location: The course will be held in person in MP257. Access to CITA computers will be done via VNC Remote Desktop or SSH.
 
 ## Instructors
 
