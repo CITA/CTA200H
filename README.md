@@ -44,13 +44,12 @@ This is a list of dates and topics for the course (subject to change):
 
 # Marking Scheme
 
-The mark will be determined on the basis of three items:
+The mark will be determined on the basis of two items:
 
 | Item                  | Weight|
 | --------------------- | ----- |
-|1. Class participation | 10%   |
-|2. Homework:           | 40%   |
-|3. Project:            | 50%   |
+|1. Homework:           | 50%   |
+|2. Project:            | 50%   |
 
 ## Homework
 
@@ -58,12 +57,12 @@ In the first week students will work on homework problems related to the first w
 
 The problem set will be divided into three smaller assignments to be handed in every couple of days. 
 
-* [Assignment 1 Due by 1PM May 7th](assignments/assignment_1.md)
-* [Assignment 2 Due by 11:59PM May 9th](assignments/assignment_2.pdf)
-* [Assignment 3 Due by 1PM May 13th](assignments/assignment_3.pdf)
+* [Assignment 1 Due by 1PM May 6th](assignments/assignment_1.md)
+* [Assignment 2 Due by 11:59PM May 8th](assignments/assignment_2.pdf)
+* [Assignment 3 Due by 1PM May 12th](assignments/assignment_3.pdf)
 
 ## Project
-In the second week students will work on a project supplied either by their supervisor or the instructor. The project is due by 5PM on Tuesday May 20th 2025.
+In the second week students will work on a project supplied either by their supervisor or the instructor. The project is due by 5PM on Tuesday May 19th 2026.
 
 ## Using the System
 
