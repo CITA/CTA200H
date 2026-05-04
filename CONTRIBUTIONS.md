@@ -7,7 +7,7 @@ Individual contributions are often listed in more detail within lectures and ass
 
   * ??? - 2024: Norm Murray
   * 2025: Maya Fishbach & Bart Ripperda
-  * 2026: Bart Ripperda & Reed Essick
+  * 2026: Bart Ripperda
 
 ### Guest Lecturers (postdoctoral fellows)
 
@@ -57,8 +57,8 @@ Finite-Difference Techniques
 
 Statistical Techniques
 
-  * [Statistical Methods](https://github.com/CITA/CTA200H/tree/master/lectures/statistics): ???
-  * [Monte Carlo Techniques](https://github.com/CITA/CTA200H/tree/master/lectures/monte_carlo): developed by Maya Fishbach in 2025
+  * [Statistical Methods](https://github.com/CITA/CTA200H/tree/master/lectures/statistics): developed by Carl Haster
+  * [Monte Carlo Techniques](https://github.com/CITA/CTA200H/tree/master/lectures/monte_carlo): developed by Carl Haster, updated by Maya Fishbach in 2025
   * [Hierarchical Inference](https://github.com/CITA/CTA200H/tree/master/lectures/hierarchical_inference): developed by Maya Fishbach in 2025
 
 ## Assignments
