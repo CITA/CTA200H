@@ -47,8 +47,7 @@ The mark will be determined on the basis of three items:
 
 | Item                | Weight |
 |---------------------|--------|
-| Class participation | 10%    |
-| Homework            | 40%    |
+| Homework            | 50%    |
 | Project             | 50%    |
 
 ## Homework
@@ -59,14 +58,14 @@ They will hand in their results for this project at the end of the course.
 
 The problem set will be divided into three smaller assignments to be handed in every couple of days. 
 
-* [Assignment 1 Due by 1:00PM May 7th](https://github.com/CITA/CTA200H/blob/master/assignments/assignment_1.md)
-* [Assignment 2 Due by 11:59PM May 9th](https://github.com/CITA/CTA200H/blob/master/assignments/assignment_2.pdf)
-* [Assignment 3 Due by 1:00PM May 13th](https://github.com/CITA/CTA200H/blob/master/assignments/assignment_3.pdf)
+* [Assignment 1 Due by 11:59PM May 7th](https://github.com/CITA/CTA200H/blob/master/assignments/assignment_1.md)
+* [Assignment 2 Due by 11:59PM May 8th](https://github.com/CITA/CTA200H/blob/master/assignments/assignment_2.pdf)
+* [Assignment 3 Due by 11:59PM May 12th](https://github.com/CITA/CTA200H/blob/master/assignments/assignment_3.pdf)
 
 ## Project
 
 In the second week students will work on a project supplied either by their supervisor or the instructor.
-The project is **due by 5:00PM on Tuesday May 20th 2025**.
+The project is **due by 5:00PM on Tuesday May 19th 2026**.
 
 ## Using the System
 
