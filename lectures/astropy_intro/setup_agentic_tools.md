@@ -86,12 +86,31 @@ you may need to wait briefly or switch to another option.
 
 ---
 
-### Option C — OpenAI Codex CLI
+### Option C — OpenAI Codex
 
-OpenAI's terminal-based agentic coding tool, similar in spirit to Claude Code.
+OpenAI's agentic coding tool, available in two forms: a **VS Code extension** with a
+side-by-side chat and agent panel (similar to GitHub Copilot and Claude), and a
+**command-line tool** for terminal-based use. Both connect to the same underlying model.
 
-**Requirements:** Node.js installed and an OpenAI account ([platform.openai.com](https://platform.openai.com)).
+**Requirements:** an OpenAI account ([platform.openai.com](https://platform.openai.com)).
 New accounts receive free credits; after that, usage is pay-as-you-go.
+
+#### Option C1 — Codex in VS Code (side-by-side panel, recommended)
+
+1. In VS Code, open the Extensions panel (`Ctrl+Shift+X` / `Cmd+Shift+X`)
+2. Search for **OpenAI Codex** (or **ChatGPT**) and install the official OpenAI extension
+3. Sign in with your OpenAI account when prompted
+4. Open the Codex panel from the sidebar — you get a chat interface where you can
+   ask questions, request code edits, and run agentic tasks directly alongside your files,
+   without leaving VS Code
+
+**Verify:** open the panel, type `explain what a FITS file is` and confirm you get a response.
+To use it agentically, describe a multi-step task (e.g. *"open this notebook and add a cell
+that plots the first column of the table"*) and observe it plan and execute the steps.
+
+#### Option C2 — Codex CLI (terminal-based)
+
+**Requirements:** Node.js installed ([nodejs.org](https://nodejs.org), LTS version).
 
 ```bash
 # Install Codex CLI globally
